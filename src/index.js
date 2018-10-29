@@ -6,7 +6,7 @@ import { createStore, applyMiddleware } from 'redux';
 import App from './components/app';
 import reducers from './reducers';
 
-const API_KEY ='AIzaSyBI6_unAZRVQhnsl-Oehmk9nh2LjLdhk9E';
+
 
 const createStoreWithMiddleware = applyMiddleware()(createStore);
 
